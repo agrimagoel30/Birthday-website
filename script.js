@@ -1,3 +1,12 @@
+const lines= document.querySelector('.lines');
+const navlinks= document.querySelector('.nav-links');
+lines.addEventListener('click',()=> {
+    navlinks.classList.toggle('active');
+})
+
+
+
+
 document.getElementById("openbtn").addEventListener("click", function() {
     document.getElementById("digicard").style.display = "block";
 });
